@@ -27,5 +27,5 @@ repositories {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.facebook.react:react-native:+'
-    compile 'com.google.android.libraries.cast.companionlibrary:ccl:+'
+    compile group: 'com.google.android.libraries.cast.companionlibrary', name: 'ccl', version: '2.9.1'
 }
